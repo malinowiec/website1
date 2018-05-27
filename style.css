@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.menu{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 10px;
+}
+
+ul li a:hover{
+	background-color: #1f1f1f;
+	color: #FFFFFF;
+}
+
+.block{
+  width: 50%;
+	float: left;
+  height: 80vh;
+	background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74be18f074e19e06a51221f0f09969df&auto=format&fit=crop&w=752&q=80);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.firm-main-text, .lecture-main-text {
+  font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	margin: 0;
+	line-height: 15vh;
+}
+
+.firm { 
+	float: right;
+	width: 50%;
+  text-align: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.firm-text, .lecture-text{
+  font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+  max-height: 400px;
+  line-height: 25px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.firm-slogan, .lecture-slogan{
+	margin: 9vh auto;
+	background: rgba(255, 255, 255, 0.5);
+	max-width: 800px;
+}
+
+.blockSecond{
+	float: right;
+	width: 50%;
+  height: 80vh;
+	background-image: url(https://images.unsplash.com/photo-1493689485253-f07fcbfc731b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ebe5bb8654d3816c9d934ff455abffb2&auto=format&fit=crop&w=733&q=80);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.lecture { 
+	float: left;
+	width: 50%;
+  text-align: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+
+.gallery{
+  font-family: 'Raleway', sans-serif;
+	line-height: 20vh;
+	text-align: center;
+
+}
+
+.gallery-text{
+	text-align: center;
+	margin: 0;
+	padding: 25px;
+	font-size: 35px;
+}
+
+.gallery-image img{
+	object-fit: cover;
+	float: left;
+	width: 25%;
+	max-height: 150px;
+}
+
+.gallery-image img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+footer p{
+	margin: 0;
+	padding: 10px;
+}
+
+@media (max-width: 800px) {
+  
+.container {width:90%;margin:0 auto;}
+
+}
